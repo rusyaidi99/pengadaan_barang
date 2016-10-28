@@ -1,0 +1,279 @@
+/* FONT */
+@font-face {
+	font-family: fontBebasNeue;
+	src: url(../fonts/BebasNeue.otf);
+}
+
+@font-face {
+	font-family: fontCaviar;
+	src: url(../fonts/CaviarDreams.ttf);
+}
+
+/* STYLING TAGS */
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #f8f7f7;
+}
+
+header {
+	font: bold 13px/24px Times, "Times New Roman", serif;
+	padding: 5px;
+	width: auto;
+	background-color: blue;
+	color: white;
+}
+
+#logo {
+	width: auto;
+}
+
+
+
+nav {
+	font-family: fontCaviar;
+	font-weight: bold;
+	padding: 5px;
+	width: auto;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+nav li {
+	line-height: 40px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000;
+	display: inline;
+	padding: 16px;
+	transition: .5s background-color;
+}
+
+nav a:hover {
+	background-color: white;
+	color: red;
+	font-weight: bolder;
+	padding: 16px;
+	box-shadow: 4px -1px 1px #AAA;
+}
+
+nav a.active {
+	background-color: white;
+	color: red;
+	font-weight: bold;
+	cursor: default;
+	box-shadow: 4px -1px 1px #AAA;
+}
+
+#align{
+	text-align: center;
+}
+
+footer {
+	font-family: Calibri;
+	text-align: center;
+	width: auto;
+	bottom: 0px;
+	clear: both;
+	padding: 10px;
+	background: #7F8C8D;
+	padding: auto;
+	margin-right: 9.3%;
+	margin-left: 8%;
+}
+
+footer .admin {
+	font-family: Calibri;
+	text-align: center;
+	width: 100%;
+	bottom: 0px;
+	clear: both;
+	padding: 10px;
+	background: #7F8C8D;
+	padding: auto;
+	margin-top: 40%;
+}
+
+.login{
+	text-align: center;
+	margin-left: 30%;
+}
+
+
+label {
+	font-family: Calibri;
+}
+
+.aside {
+	text-align: center;
+	height: 100%;
+	width: 10%;
+	background: #E0E0E0;
+	float: right;
+	padding: 5px;
+}
+
+
+article {
+	font-family: Calibri;
+	padding: 20px;
+}
+
+section {
+	font-family: Calibri;
+	float: left;
+}
+
+/* STYLING FORM DAN BUTTON */
+button {
+    padding: 10px 15px;
+    background: #2ECC71;
+    color: #FFF;
+    border-radius: 4px;
+    height: auto;
+}
+#apa{
+	padding: 10px 15px;
+    background: #2ECC71;
+    color: blue;
+    border-radius: 4px;
+}
+.judulhome{
+	font-size: 20pt;
+}
+.judultampil{
+	font-size : 30pt;
+}
+
+
+input, select, textarea {
+	border-radius: 4px;
+	padding: 5px;
+}
+
+/* STYLING TABEL */
+#tabel {
+	width: 100%;
+    border-collapse: collapse;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:13px;
+}
+
+article #halamann{
+	background-color: black;
+}
+
+#tabel td, #tabel th {
+    font-size: 1em;
+    border: 1px solid black;
+    padding: 3px 7px 2px 7px;
+}
+
+#tabel th {
+    font-size: 1.1em;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #22A7F0;
+    color: #ffffff;
+}
+
+#tabel tr.alternatif td {
+    color: #000000;
+    background-color: #89C4F4;
+}
+
+.text {
+	display: none;
+}
+
+#tampil {
+	display: none;
+}
+
+#add_form{
+	width: 150px;
+}
+
+#pinggir {
+	display: none;
+	float:right;
+	width:650px;
+	padding:20px 10px;
+}
+
+.gambarkomen{
+	width: 50px;
+	height: 50px;
+}
+
+ #form-login{
+        margin:auto;
+        width:320px;
+        padding:10px;
+        border:1px #ccc solid;
+        font-size:18px;
+        font-weight:bold;
+        color:#555;
+        }
+#gambar1 {
+	 position: relative;
+    top: 20px;
+   left:10px;
+}
+
+#gambar2 {
+	 position: relative;
+    top: 0px;
+   left:0px;
+}
+
+#gambar3 {
+	 position: relative;
+    top: 20px;
+   left:10px;
+}
+
+#gambar4 {
+	 position: relative;
+    top: 15px;
+   left:30px;
+}
+
+#gambar5 {
+	 position: relative;
+    top: 50px;
+   left:80px;
+}
+
+#gambar6 {
+	 position: relative;
+    top: 50px;
+   left:150px;
+}
+
+#gambar7 {
+	 position: relative;
+    top: 70px;
+   left:170px;
+}
+
+#gambar8 {
+	 position: relative;
+    top: 70px;
+   left:180px;
+}
+
+
